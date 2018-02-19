@@ -10,7 +10,7 @@ const DETAILS = ((window, document) => {
     const $divPokemon = $(`<div class="poke-image">${STATE.pokemonComponent}</div>`);
     const $divDetails = $('<div class="poke-details"></div>');
     const $description = $(`<p>${pokemon.description}</p>`);
-    const $features = $('<div class ="$features flex-container"></div>');
+    const $features = $('<div class ="features flex-container"></div>');
     const $height = $(`<div><h5>Altura:</h5><p>${pokemon.height / 10} m</p></div>`);
     const $weight = $(`<div><h5>Peso:</h5><p>${pokemon.weight / 10} kg</p></div>`);
     const $genero = $('<div><h5>Sexo:</h5><p>female</p></div>');
