@@ -1,0 +1,99 @@
+/*Color Types*/
+.Acero, .steel {
+  background: #9EB7B8;
+}
+
+.Agua, .water {
+  background: #4592C4;
+}
+
+.Bicho, .bug {
+  background: #729F3F;
+}
+
+.Dragón, .dragon {
+  background: -webkit-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: -moz-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: -o-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background-color: #53a4cf;
+  color: #fff;
+}
+
+.Eléctrico, .electric {
+  background-color: #eed535;
+  color: #212121;
+}
+
+.Fantasma, .ghost {
+  background-color: #7b62a3;
+  color: #fff;
+}
+
+.Fuego, .fire {
+  background-color: #fd7d24;
+  color: #fff;
+}
+
+.Hada, .fairy {
+  background-color: #fdb9e9;
+  color: #212121;
+}
+
+.Hielo, .ice {
+  background-color: #51c4e7;
+  color: #212121;
+}
+.Lucha, .fighting {
+  background-color: #d56723;
+  color: #fff;
+}
+
+.Normal, .normal {
+  background-color: #a4acaf;
+  color: #212121;
+}
+
+.Planta, .grass {
+  background-color: #9bcc50;
+  color: #212121;
+}
+
+.Psíquico, .psychic {
+  background-color: #f366b9;
+  color: #fff;
+}
+
+.Roca, .rock {
+  background-color: #a38c21;
+  color: #fff;
+}
+
+.Siniestro, .dark {
+  background-color: #707070;
+  color: #fff;
+}
+
+.Tierra, .ground {
+  background: -webkit-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background: -ms-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background: -moz-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background: -o-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background-color: #f7de3f;
+  color: #212121;
+}
+
+.Veneno, .poison {
+  background-color: #b97fc9;
+  color: #fff;
+}
+
+.Volador, .flying {
+  background: -webkit-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background: -moz-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background: -o-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background-color: #3dc7ef;
+  color: #212121;
+}

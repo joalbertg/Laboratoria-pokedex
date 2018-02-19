@@ -1,0 +1,185 @@
+@import url('./colors.css');
+@font-face {
+  font-family:'Flexo-Regular';
+  src:url('../assets/font/Flexo-Regular.otf');
+}
+
+* {
+  font-family: "Flexo-Regular", arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2, h3, h4 {
+  line-height: 35px;
+}
+
+header {
+  color: #e84848;
+  height: 100px;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.search-pokemon {
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.form-control .search {
+  position: relative;
+  margin: 0 7%;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 2px solid #62676b;
+  height: 30px;
+  width: 80%;
+  padding-left: 42px;
+  border-color: #7aa44a;
+  outline: none;
+}
+
+.form-control a {
+  color: #62676b;
+  text-decoration: none;
+  font-size: 1.3rem;
+  position: absolute;
+  top :14%;
+  left : 5px;
+}
+
+.search .a-z {
+  padding: 10px 14px;
+  background: #65be76;
+  color: #fff;
+  float: right;
+  margin-top: -14px;
+}
+
+.grid-pokemon {
+  flex-wrap: wrap;
+}
+
+.pokemon-container {
+  margin-top: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pokemon-container .pokes {
+  font-size: 1.6rem;
+}
+
+.pokemon-image {
+  width: 215px;
+  height: 260px;
+  background: #bdbdbd;
+  margin: 14px 10px;
+  border-radius: 5px;
+}
+
+.base {
+  width: 100%;
+  height: 49px;
+  background: transparent url("../assets/icon/base.png") center top no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.base .icon {
+  height: 18px;
+  width: 18px;
+  margin: 16px 12px;
+  text-align: center;
+}
+
+/* modal
+ */
+
+.modal-pokemon {
+  display: none;
+  width: 100%;
+  background-color: rgba(113, 113, 113, 0.51);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  height: 100vh;
+}
+
+.modal-content {
+  width: 80%;
+  justify-content: space-around;
+  background-color: #f7f9f4;
+  flex-flow: wrap;
+}
+
+.modal-header {
+  width: 100%;
+}
+
+.modal-header h2 {
+  display: inline-block;
+  width: 94%;
+  min-width: 300px;
+  text-align: center;
+}
+
+.modal-header a {
+  display: inline-block;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #212121;
+}
+
+.poke-image, .poke-details {
+  padding: 3% 0;
+}
+
+.poke-image {
+  width: 40%;
+  min-width: 300px;
+}
+
+.poke-details {
+  width: 40%;
+  min-width: 300px;
+}
+
+.poke-details span{
+  padding: 4px 12px;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+}
+
+.features {
+  background: #36a4d3;
+  width: 100%;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 0 20px;
+  margin-top: 14px;
+  height: 150px;
+}
+
+h5 {
+  color: #fff;
+  line-height: 24px;
+}
+
+.weakness {
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
